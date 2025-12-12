@@ -23,12 +23,11 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
-
     def my_print(self):
         """Initialize a Square instance with a given size"""
         if self.__size == 0:
             print("")
-        n=0
+        n = 0
         while n < self.__size:
-            print("#"*self.__size)
+            print("#" * self.__size)
             n += 1
